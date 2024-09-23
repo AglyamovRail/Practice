@@ -12,45 +12,11 @@
     <link rel="stylesheet" href="css/clear button.css" type="text/css">
     <link rel="stylesheet" href="css/normalize.css" type="text/css">
 </head>
-<body>
-    <header>
-        <section>
-            <h1>Список задач</h1>
-        </section>
-    </header>
-    
+<body class="board-app">
     <section class="enter">
-        <h2>Новая задача</h2>
-        <div>
-            <form> 
-                <input type="text" name="text" class="input-text" placeholder="Название задачи... " required>
-                <input type="submit" name="submit" class="input-submit" value="＋ Добавить">
-            </form>
-        </div>
     </section>
-    <section class="list">
-            <ul class="backlog-list">
-                <h3 class="backlog">Бэклог</h3>
-                <li>Выучить JS</li>
-                <li>Выучить React</li>
-                <li>Сделать домашку</li>
-            </ul>
-            <ul class="in-process-list">
-                <h3 class="in-process">В процессе</h3>
-                <li>Выпить смузи</li>
-                <li>Попить воды</li>
-            </ul>
-            <ul class="done-list">   
-                <h3 class="done">Готово</h3>
-                <li>Позвонить маме</li>
-                <li>Погладить кота</li>
-            </ul>
-            <ul class="basket-list">
-                <h3 class="basket">Корзина</h3>
-                <li>Сходить погулять</li>
-                <li>Прочитать войну и Мир</li>
-                <button class="clear-button">&#215 Очистить</button>
-            </ul>
+    <section class="list">       
     </section>
+    <script src="src/main.js" type="module"></script>
 </body>
 </html>

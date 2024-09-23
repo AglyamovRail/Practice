@@ -35,7 +35,7 @@
     font-size: 1.1rem;
 }
 
-.enter { 
+section > .enter { 
     width: 500px;
     height: 170px;
     margin-top: 60px;
